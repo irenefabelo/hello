@@ -1,0 +1,153 @@
+body {
+  background-color: #f0ee91;
+  /* background-color: #34589d; */
+  font-family: "nunito", sans-serif;
+}
+
+ .smiley{
+  position: relative;
+  width: 80px;
+  top:-140px;
+  z-index: -1
+
+}
+
+.icon {
+  width: 108px;
+  position: absolute;
+  top: 16%;
+  color: #ee976d;
+  animation-name: mymove;
+  animation-duration: 0.5s;
+  animation-timing-function: ease ease-in-out;
+  animation-delay: 2s;
+  /* transition-duration: 0.5s; */
+  transition-delay: 0.2s;
+}
+
+@keyframes mymove {
+  from {
+    transform: rotate(40deg);
+  }
+  to {
+    transform: rotate(-30deg);
+  }
+}
+
+.icon:hover{
+  opacity: 0;
+}
+
+.box {
+  margin-top: -80px;
+}
+main {
+  margin: 0 auto;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main p {
+  font-size: 30px;
+  color: #394f5b;
+  font-weight: normal;
+  line-height: 42px;
+}
+
+main p span {
+  color: white;
+}
+
+.email {
+  color: #8885CC;
+}
+
+nav {
+ position: absolute;
+ top:0;
+ bottom: 10%;
+ left: 2px;
+ display: flex;
+ align-items: center;
+}
+
+nav a {
+  display: inline-block;
+  margin:8px 8px;
+  transform: rotate(-90deg);
+  font-size: 17px;
+}
+
+/* a work {
+  justify-content: flex-end;
+
+} */
+
+.work {
+  /* position:absolute; */
+  width:40px
+  top: 0;
+  bottom: 10%;
+  right: 0%;
+  display: flex;
+  justify-content: flex-end;
+  /* flex-direction: row; */
+}
+
+/* div a {
+  transform: rotate(90deg);
+  display:inline-block;
+  margin: 8px 8px;
+  font-size: 17px;
+  justify-content: flex-start;
+} */
+
+a {
+  /* color: #ee976d; */
+  color: #8885cc;
+  text-decoration: none;
+}
+
+.work a:hover {
+  color: #F9C9C2;
+}
+
+.email:hover {
+  color: #F9C9C2;s
+}
+
+nav a:hover {
+  color: #F9C9C2;
+}
+
+footer {
+  /* background-color: blue; */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.container1 {
+  height: 470px;
+  background-color: white;
+}
+
+.behance {
+  width: 40px;
+  padding-right: 35px;
+}
+
+.linkedin {
+  width: 40px;
+  padding-right: 35px;
+}
+
+.instagram {
+  width: 40px;
+  padding-right: 35px;
+}
